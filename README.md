@@ -1,11 +1,13 @@
 Summary
 =======
 
-A project for automatically scraping the Wikipedia article,
-[United States presidential election, 2016](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016),
-for the state-level popular vote results, and applying the methodology of my
-blog post,
-[Fair, Efficient State-wise Electoral College Vote Allocation](https://dalevisser.wordpress.com/2016/12/08/fair-efficient-state-wise-electoral-college-vote-allocation/).
+A project for automatically scraping these Wikipedia articles:
+
+* [United States presidential election, 2016](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016)
+* [United States presidential election, 2012](https://en.wikipedia.org/wiki/United_States_presidential_election,_2012)
+
+They are scraped for the state-level popular vote results, and then the methodology of my blog post,
+[Fair, Efficient State-wise Electoral College Vote Allocation](https://dalevisser.wordpress.com/2016/12/08/fair-efficient-state-wise-electoral-college-vote-allocation/), is applied.
 
 Instructions
 ============
@@ -18,6 +20,6 @@ that can run Anaconda.
 2. `conda env create -f environment.yml`
 3. `source activate electoral-fair`
 4. `jupyter notebook`
-5. Open the notebook file and run it, or play with it as you see fit.
+5. Open the notebook files and run them, or play with thems as you see fit.
    (That's the beauty of releasing this under open source license!)
 

@@ -5,6 +5,7 @@ A project for automatically scraping these Wikipedia articles:
 
 * [United States presidential election, 2016](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016)
 * [United States presidential election, 2012](https://en.wikipedia.org/wiki/United_States_presidential_election,_2012)
+* [United States presidential election, 2000](https://en.wikipedia.org/wiki/United_States_presidential_election,_2000)
 
 They are scraped for the state-level popular vote results, and then the methodology of my blog post,
 [Fair, Efficient State-wise Electoral College Vote Allocation](https://dalevisser.wordpress.com/2016/12/08/fair-efficient-state-wise-electoral-college-vote-allocation/), is applied.

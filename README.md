@@ -5,6 +5,8 @@ A project for automatically scraping these Wikipedia articles:
 
 * [United States presidential election, 2016](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016)
 * [United States presidential election, 2012](https://en.wikipedia.org/wiki/United_States_presidential_election,_2012)
+* [United States presidential election, 2008](https://en.wikipedia.org/wiki/United_States_presidential_election,_2008)
+* [United States presidential election, 2004](https://en.wikipedia.org/wiki/United_States_presidential_election,_2004)
 * [United States presidential election, 2000](https://en.wikipedia.org/wiki/United_States_presidential_election,_2000)
 
 They are scraped for the state-level popular vote results, and then the methodology of my blog post,
@@ -21,6 +23,6 @@ that can run Anaconda.
 2. `conda env create -f environment.yml`
 3. `source activate electoral-fair`
 4. `jupyter notebook`
-5. Open the notebook files and run them, or play with thems as you see fit.
+5. Open the notebook files and run it, or play with it as you see fit.
    (That's the beauty of releasing this under open source license!)
 

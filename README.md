@@ -1,5 +1,4 @@
-Summary
-=======
+# Summary
 
 A project for automatically scraping these Wikipedia articles:
 
@@ -12,8 +11,20 @@ A project for automatically scraping these Wikipedia articles:
 They are scraped for the state-level popular vote results, and then the methodology of my blog post,
 [Fair, Efficient State-wise Electoral College Vote Allocation](https://dalevisser.wordpress.com/2016/12/08/fair-efficient-state-wise-electoral-college-vote-allocation/), is applied.
 
-Instructions
-============
+## Instructions
+
+### Docker
+
+If you have Docker, the *jupyter/scipy-notebook* image on Docker hub has all needed
+dependencies. The following assumes you have a typical UID = 1000. If not, you can
+try adding `--user 5000 --group-add users` to the options in the command below. See
+[here](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html) for
+full details.
+
+1. `docker run -it --rm -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 --mount type=bind,source="$(pwd)",target=/home/jovyan/work jupyter/scipy-notebook:latest`
+2. Open the notebook file under the *work/* folder and run it, or play with it as yous see fit.
+
+### Anaconda
 
 The notebook was developed on Linux Mint, and the following instructions
 should be easily translatable to other Linux environments, or even any system
@@ -24,5 +35,3 @@ that can run Anaconda.
 3. `source activate electoral-fair`
 4. `jupyter notebook`
 5. Open the notebook files and run it, or play with it as you see fit.
-   (That's the beauty of releasing this under open source license!)
-

@@ -8,10 +8,16 @@ A project for automatically scraping these Wikipedia articles:
 * [United States presidential election, 2004](https://en.wikipedia.org/wiki/United_States_presidential_election,_2004)
 * [United States presidential election, 2000](https://en.wikipedia.org/wiki/United_States_presidential_election,_2000)
 
-They are scraped for the state-level popular vote results, and then the methodology of my blog post,
+They are scraped for the state-level popular vote results, and then the methodology
+of my blog post,
 [Fair, Efficient State-wise Electoral College Vote Allocation](https://dalevisser.wordpress.com/2016/12/08/fair-efficient-state-wise-electoral-college-vote-allocation/), is applied.
 
 ## Instructions
+
+### View on Jupyter.org
+
+The GitHub native rendering of the notebook doesn't always work, but there is always
+[nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/dwvisser/electoral-fair/blob/master/scrape-and-compute-all.ipynb)
 
 ### Docker
 
@@ -25,9 +31,10 @@ full details.
 2. Open the notebook file under the *work/* folder and run it, or play with it as you
    see fit.
 
-A *.devcontainer* file is provided, which makes it easy to launch the notebook inside
-Visual Studio Code using its *Remote-Containers* extension, via the
-"Remote-Containers: Open Folder in Container..." command.
+A [Dockerfile](Dockerfile) and [.devcontainer folder](.devcontainer) are provided,
+which make it easy to launch the notebook inside Visual Studio Code using its
+*Remote-Containers* extension, via the
+`Remote-Containers: Open Folder in Container...` command.
 
 ### Anaconda
 

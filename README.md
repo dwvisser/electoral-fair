@@ -22,7 +22,12 @@ try adding `--user 5000 --group-add users` to the options in the command below. 
 full details.
 
 1. `docker run -it --rm -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 --mount type=bind,source="$(pwd)",target=/home/jovyan/work jupyter/scipy-notebook:latest`
-2. Open the notebook file under the *work/* folder and run it, or play with it as yous see fit.
+2. Open the notebook file under the *work/* folder and run it, or play with it as you
+   see fit.
+
+A *.devcontainer* file is provided, which makes it easy to launch the notebook inside
+Visual Studio Code using its *Remote-Containers* extension, via the
+"Remote-Containers: Open Folder in Container..." command.
 
 ### Anaconda
 
